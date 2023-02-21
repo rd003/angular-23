@@ -1,0 +1,49 @@
+.auto-container{
+    width: 40%;
+    margin: auto;
+    padding: 15px;
+    min-height: 300px;
+    border: 1px solid black;
+    background-color: rgb(244, 244, 244);
+    display: table;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.heading{
+    font-weight: bold;
+    font-size: 30px;
+    color: #1c1c1c;
+    display: block;
+}
+
+
+.input{
+  padding: 5px 8px;
+  font-size: 16px;
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+}
+
+.label{
+  font-size: 20px;
+  display: block;
+  margin: 8px 0px;
+
+}
+
+.btn{
+  display: block;
+  padding: 10px 15px;
+  font-size: 18px;
+  border: none;
+  background-color: #5c00b2;
+  cursor: pointer;
+  color:white;
+  margin: 8px 0px;
+  border-radius: 5px;
+
+}
+
+.message{
+    margin: 5px 0px;
+}

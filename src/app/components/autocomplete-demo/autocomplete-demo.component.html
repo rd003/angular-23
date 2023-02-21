@@ -1,0 +1,21 @@
+<div class="auto-container">
+
+<span class="heading">ng-select autocomplete demo</span>
+
+<form [formGroup]="frm" (ngSubmit)="onPost()">
+ <label class="label">Fruit</label>
+ <ng-select class="w-20" formControlName="selectedFruit">
+    <ng-option *ngFor="let fruit of fruits" [value]="fruit.id">{{fruit.name}}</ng-option>
+ </ng-select>
+ 
+ <label class="label">Descripton</label>
+ <textarea class="input w-20" formControlName="description"> </textarea>
+
+ <button class="btn" type="submit">Save</button>
+</form>
+<div *ngIf="isSubmitted" class="message">
+    {{frm.value | json}}
+
+</div>
+
+</div>
