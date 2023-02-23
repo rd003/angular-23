@@ -7,7 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-23';
-  onScroll() {
-    console.log("scrolled!!");
+  
   }
-}
